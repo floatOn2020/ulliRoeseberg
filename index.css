@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Heebo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+/*
+font-family: 'Alegreya SC', serif;
+font-family: 'Heebo', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+*/
+
+/* VARIABLES */
+:root {
+  --header-font: 'Alegreya SC', serif;
+  --text-font: 'Nanum Gothic', sans-serif;
+}
+
+.header {
+  font-family: var(--header-font);
+  font-size: 22px;
+}
+
+.text {
+  font-family: var(--text-font);
+  font-size: 12px;
+  width: 90%;
+}
+
+/* STYLES */
+body, html, main {
+  height: 100%;
+  color: white;
+}
+
+.background-image {
+  background-image: url("files/background_image.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  padding-top: 8rem;
+  max-width: 36em;
+  position: absolute;
+  left: 10%;
+}
+
+@media(max-width: 576px) {
+  .content {
+    position: relative;
+  }
+}
+@media(max-width: 768px) {
+  .content {
+  max-width: 25em;
+  position: absolute;
+  left: 10%;
+}
+}
