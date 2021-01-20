@@ -30,14 +30,14 @@ body, html, main {
 }
 
 .background-image {
-  background-image: url("files/background_image.jpg");
+  background-image: url("background_image.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.content {
+/* .content {
   padding-top: 8rem;
   max-width: 36em;
   position: absolute;
@@ -55,4 +55,4 @@ body, html, main {
   position: absolute;
   left: 10%;
 }
-}
+} */

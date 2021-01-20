@@ -1,0 +1,6 @@
+<FilesMatch "\.mp3" >
+    ForceType application/octet-stream
+
+    Header add Content-Disposition "attachment"
+
+</FilesMatch>
